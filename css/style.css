@@ -146,12 +146,13 @@ button:hover {
   display: inline-block;
 }
 #header .logo_line .searchSec .searchForm {
-  width: calc(100% - 215px);
   padding-top: 20px;
 }
+
 #header .logo_line .searchSec .searchForm .input-group {
   border: 1px solid  #cacaca;
   border-radius: 4px;
+  margin-left: -5px
 }
 #header .logo_line .searchSec .searchForm .input-group .form-control {
   border: none;

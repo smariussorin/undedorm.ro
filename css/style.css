@@ -1757,6 +1757,7 @@ footer.footer2 .copyRight {
   position: relative;
 }
 #slider .sliderCont .slides .text_lines {
+  height: 165px;
   background: rgba(0, 0, 0, 0.38);
   color: #FFF;
   position: absolute;
@@ -2326,6 +2327,10 @@ h6.heading {
 .btn.btn-primary {
   border: 1px solid #3ab54a;
   color: #3ab54a;
+}
+.btn.btn-primary:hover {
+  background: #3ab54a;
+  color: #FFF;
 }
 .btn.btn-primary.filled {
   background: #3ab54a;

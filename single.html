@@ -82,10 +82,10 @@
                   </div>
                 </div>
                 <div class="input-group col-sm-3">
-                  <input type="datetime" class="form-control" placeholder="Data sosirii">
+                  <input type="datetime" class="form-control" placeholder="Data sosirii zz/ll/aaaa">
                 </div>
                 <div class="input-group col-sm-3">
-                  <input type="datetime" class="form-control" placeholder="Data plecarii">
+                  <input type="datetime" class="form-control" placeholder="Data plecării zz/ll/aaaa">
                   <span class="input-group-btn searchIco">
                     <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
                   </span>
@@ -176,63 +176,77 @@
                 <i class="fa fa-star-half-empty"></i>
               </div>
               <div class="fleft">
-                65 Review-uri
+                1 Review
                 <span>|</span> <a href="#">Adaugă Review</a>
               </div>
             </div>
             <div class="row descList m0">
               <dl class="dl-horizontal">
-                <dt>manufacturer :</dt>
-                <dd>Tartaan &amp; Co</dd>
-                <dt>availability :</dt>
-                <dd>In Stock 20 Item(s)</dd>
-                <dt>product code :</dt>
-                <dd>Xuo15</dd>
+                <dt>Locație :</dt>
+                <dd>București</dd>
               </dl>
             </div>
             <div class="row m0 shortDesc">
-              <p class="m0">Rustic, natural, often made of bark-covered logs or simple planks. Look for junk shop finds when in the country (for authenticity), or purchase hand-made new versions.</p>
+              <form class="form" action="#" method="get">
+                <div class="form-group col-md-4" style="padding:0">
+                  <label for="checkin">
+                    Data sosirii:
+                  </label>
+                  <div class="input-group">
+                    <input type="datetime" class="checkin form-control" placeholder="zz/ll/aaaa">
+                  </div>
+                </div>
+                <div class="form-group col-md-4" style="padding:0">
+                  <label for="checkout">
+                    Data sosirii:
+                  </label>
+                  <div class="input-group">
+                    <input type="datetime" class="checkout form-control" placeholder="zz/ll/aaaa">
+                  </div>
+                </div>
+                <div class="form-group col-md-4" style="padding:0">
+                  <label for="country">Oaspeti:</label>
+                  <div class="input-group">
+                    <select class="selectpicker sizeSelect form-control">
+                      <option value="1oaspete">1 Oaspete</option>
+                      <option value="2oaspeti">2 Oaspeti</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="fleft btn btn-default btn-sm">
+                  <img src="images/icons/cart3.png" alt=""> inchiriază
+                </button>
+                <!-- /input-group -->
+              </form>
             </div>
-            <div class="row m0">
-              <h5 class="heading proAttr">Size :</h5>
-              <select class="selectpicker sizeSelect">
-                <option value="queen">queen</option>
-                <option value="red">red</option>
-                <option value="black">black</option>
-                <option value="white">white</option>
-              </select>
+
+            <div class="row m0 shortDesc">
+              <div class="col-sm-6 input-group">
+                <input type="text" name="firstName" id="firstName" placeholder="Propune sumă" class="form-control">
+              </div>
+              <div class="col-sm-6 input-group">
+                <label for=""></label>
+                <button class="fleft btn btn-default btn-sm" style="height: 34px; margin-top:15px">
+                  <img src="images/icons/cart3.png" alt=""> licitează
+                </button>
+              </div>
             </div>
+
             <div class="row m0">
               <ul class="list-inline wce">
                 <li>
                   <a href="#">
-                    <img src="images/icons/heart.png" alt="">Add to Wishlist</a>
+                    <img src="images/icons/heart.png" alt="">Adaugă la lista de dorințe</a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="images/icons/compare.png" alt="">Add to Compare</a>
+                    <img src="images/icons/compare.png" alt="">Adauga la comparare</a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="images/icons/email.png" alt="">Email to a Friend</a>
+                    <img src="images/icons/email.png" alt="">Trimite email unui prieten</a>
                 </li>
               </ul>
-            </div>
-            <div class="row m0 qtyAtc">
-              <div class="fleft quantity">
-                <div class="fleft">Qty
-                  <span>=</span>
-                </div>
-                <div class="input-group spinner">
-                  <input type="text" class="form-control" value="2">
-                  <div class="input-group-btn-vertical">
-                    <button class="btn btn-default"><i class="fa fa-angle-up"></i></button>
-                    <button class="btn btn-default"><i class="fa fa-angle-down"></i></button>
-                  </div>
-                </div>
-              </div>
-              <button class="fleft btn btn-default">
-                <img src="images/icons/cart3.png" alt=""> add to cart</button>
             </div>
           </div>
         </div>
@@ -241,17 +255,17 @@
         <ul class="nav nav-tabs" role="tablist" id="shortcodeTab">
           <li role="presentation" class="active">
             <a href="#description" aria-controls="description" role="tab" data-toggle="tab">
-              <i class="fa fa-align-left"></i> description
+              <i class="fa fa-align-left"></i> Descriere
             </a>
           </li>
           <li role="presentation">
             <a href="#review" aria-controls="review" role="tab" data-toggle="tab">
-              <i class="fa fa-thumbs-up"></i> review (1)
+              <i class="fa fa-thumbs-up"></i> Review-uri (1)
             </a>
           </li>
           <li role="presentation">
             <a href="#additionInfo" aria-controls="additionInfo" role="tab" data-toggle="tab">
-              <i class="fa fa-file-text"></i> Additional Information
+              <i class="fa fa-file-text"></i> Informatii Suplimentare
             </a>
           </li>
         </ul>
@@ -261,48 +275,44 @@
               <img src="images/single/desc.png" alt="">
             </div>
             <div class="fleft desc">
-              <h5 class="heading">Product Details</h5>
-              <p>Dining furniture designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.Dining furniture designs are plain in appearance, stripped
-                to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.</p>
+              <h5 class="heading">Detalii</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum dui purus, at malesuada sem ultrices quis. Duis laoreet nibh sed nibh efficitur, tristique fermentum neque fringilla. Fusce pulvinar sapien est, vel pellentesque urna
+                porttitor vitae. Cras non risus sed augue blandit porta. </p>
             </div>
           </div>
           <div role="tabpanel" class="tab-pane row m0" id="review">
-            <div class="row m0 reviewCount">1 review for comfortable dining table</div>
+            <div class="row m0 reviewCount">1 review pentru STUDIO NOU - CENTRU</div>
             <div class="row m0 reviewBody">
-              <span class="bold">4</span> out of 5
+              <span class="bold">4.5</span> din 5
               <br>
-              <span class="bold">K Admas</span> - March 10, 2014
-              <p class="m0">Amazing Product!</p>
+              <span class="bold">Alina Dragomir</span> - Martie 10, 2015
+              <p class="m0">Anna este gazda perfecta. Apartamentul ei este situat în centrul Bucureștiului, există tot ce ai nevoie. Wi-Fi-ul a fost foarte bun, multe canale prin cablu, vecinii respectuosi. Vă recomandăm acest apartament.</p>
             </div>
             <div class="row m0 reviewAdd">
-              <h4 class="heading">Add a review</h4>
+              <h4 class="heading">Adaugă Review</h4>
               <form action="#" role="form" method="post" class="row m0 reviewForm">
                 <div class="row">
                   <div class="col-sm-6">
-                    <input type="text" class="form-control" placeholder="Your Name *" required="">
+                    <input type="text" class="form-control" placeholder="Nume *" required="">
                   </div>
                   <div class="col-sm-6">
-                    <input type="email" class="form-control" placeholder="Your Email *" required="">
+                    <input type="email" class="form-control" placeholder="Email *" required="">
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-6">
-                    <input type="url" class="form-control" placeholder="Your Website">
-                  </div>
                   <div class="col-sm-6 ratingStars">
-                    Your Rating
+                    Rating
                     <input type="hidden" class="rating" data-fractions="2">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-sm-12">
-                    <h4 class="heading">Your Review</h4>
                     <textarea name="reviewText" id="reviewText" class="form-control reviewText"></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-sm-12">
-                    <input type="submit" class="btn btn-primary filled">
+                    <input type="submit" class="btn btn-primary filled" value="Trimite">
                   </div>
                 </div>
               </form>
@@ -310,12 +320,11 @@
           </div>
           <div role="tabpanel" class="tab-pane row m0" id="additionInfo">
             <div class="row m0 additionInfoRow">
-              <div class="fleft infoTitle">Color</div>
-              <div class="fleft infos">Blue, Black, Red, Yellow</div>
-            </div>
-            <div class="row m0 additionInfoRow">
-              <div class="fleft infoTitle">Size</div>
-              <div class="fleft infos">S, M, L, XL</div>
+              <p class="dropcap dropcaBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum et odio eget luctus. Sed at dolor in diam luctus euismod et in purus. Duis a purus leo. Sed pellentesque porttitor dui, a hendrerit erat bibendum in. Maecenas vel
+                finibus felis. Aliquam efficitur risus nibh, volutpat molestie quam congue et. Aenean eleifend vulputate feugiat. Sed ac tempus odio, at pharetra nisl. Nullam ultrices neque felis, nec tincidunt leo congue nec. Nam pulvinar volutpat dignissim.
+                Nam tristique tristique commodo. Fusce sed dolor vestibulum augue scelerisque porttitor. Maecenas porta lorem at ex lacinia malesuada. Suspendisse potenti. Vivamus placerat ex faucibus eleifend aliquam. Praesent vitae quam lorem. Nulla
+                suscipit sagittis interdum. Suspendisse mattis lacus eget sem sagittis iaculis. Sed tempor ultrices efficitur. Duis nec vestibulum ante, vel fermentum dolor. Maecenas dignissim sapien mauris, in laoreet dolor ullamcorper commodo. Nam commodo
+                blandit feugiat.</p>
             </div>
           </div>
         </div>

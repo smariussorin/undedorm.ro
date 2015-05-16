@@ -147,8 +147,7 @@ a:focus, .btn:focus, button:focus, a:hover, .btn:hover, button:hover {
 }
 #header .logo_line .searchSec .searchForm .input-group {
   border: 1px solid #cacaca;
-  border-radius: 4px;
-  margin-left: -5px
+  margin-left: -3px
 }
 #header .logo_line .searchSec .searchForm .input-group .form-control {
   border: none;
@@ -1058,6 +1057,7 @@ a:focus, .btn:focus, button:focus, a:hover, .btn:hover, button:hover {
   padding: 0 15px;
   line-height: 28px;
   font-family: 'Open Sans', sans-serif;
+  height:34px;
 }
 .singleProduct .wce {
   margin-bottom: 25px;
@@ -2412,7 +2412,6 @@ abbr[title] {
   border-radius: 0;
   border: 1px solid #dcdcdc;
   margin: 0;
-  text-transform: capitalize;
   font-family: 'Open Sans', sans-serif;
   color: #454545;
   padding: 0 15px;
@@ -2485,7 +2484,7 @@ abbr[title] {
   color: #3ab54a;
 }
 .shortcodeTabContent .tab-pane .additionInfoRow {
-  line-height: 40px;
+  line-height: 30px;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.5px;

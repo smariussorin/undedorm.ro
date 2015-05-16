@@ -101,117 +101,154 @@
   <!--Header-->
 
   <section id="breadcrumbRow" class="row">
-    <h2>autentificare</h2>
+    <h2>despre noi</h2>
     <div class="row pageTitle m0">
       <div class="container">
-        <h4 class="fleft">autentificare</h4>
+        <h4 class="fleft">despre noi</h4>
         <ul class="breadcrumb fright">
           <li><a href="index.html">acasa</a></li>
-          <li class="active">autentificare</li>
+          <li class="active">despre noi</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section id="googleMapRow" class="row">
-    <div class="row m0" id="mapBox"></div>
-  </section>
-
-  <section id="contactRow" class="row contentRowPad">
+  <section id="whatWeDid" class="row contentRowPad">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 tab_menu">
           <div class="row m0">
-            <h4 class="contactHeading heading">formular contact</h4>
+            <ul class="nav navbar-right" role="tablist" id="myTab">
+              <li role="presentation" class="active"><a href="#wwd2011" aria-controls="wwd2011" role="tab" data-toggle="tab">2011</a></li>
+              <li role="presentation"><a href="#wwd2012" aria-controls="wwd2012" role="tab" data-toggle="tab">2012</a></li>
+              <li role="presentation"><a href="#wwd2013" aria-controls="wwd2013" role="tab" data-toggle="tab">2013</a></li>
+              <li role="presentation"><a href="#wwd2014" aria-controls="wwd2014" role="tab" data-toggle="tab">2014</a></li>
+            </ul>
           </div>
-          <div class="row m0 contactForm">
-            <form class="row m0" id="contactForm" method="post" name="contact">
-              <div class="row">
-                <div class="col-sm-6">
-                  <label for="name">Nume *</label>
-                  <input type="text" class="form-control" name="name" id="name">
-                </div>
-                <div class="col-sm-6">
-                  <label for="email">Email *</label>
-                  <input type="email" class="form-control" name="email" id="email">
-                </div>
-              </div>
-              <div class="row m0">
-                <label for="subject">subiect *</label>
-                <input type="text" class="form-control" name="subject" id="subject">
-              </div>
-              <div class="row m0">
-                <label for="message">mesajul tau</label>
-                <textarea name="message" id="message" class="form-control"></textarea>
-              </div>
-              <div class="row m0 captchaRow">
-                <img src="images/captcha.png" alt="">
-                <br>
-                <label for="captcha">Introduceți textul de mai sus</label>
-                <input type="text" class="form-control" name="captcha" id="captcha">
-              </div>
-              <button class="btn btn-primary btn-lg filled" type="submit">Trimitere mesaj</button>
-            </form>
-            <div id="success">
-              <span class="green textcenter">
-                Mesajul dvs. a fost trimis cu succes!
-              </span>
+        </div>
+        <div class="col-sm-6 tab-contents">
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="wwd2011">
+              <h3>Ce am realizat în 2011</h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+              <p>Aenean cursus maximus lacus, non feugiat ex rhoncus vel. Phasellus tempor nibh pretium metus convallis, nec ultricies purus imperdiet. Nunc non purus vulputate, interdum tortor in, vehicula magna.</p>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur iaculis at arcu et ultrices. Nulla sed molestie libero, convallis ultrices turpis.</p>
             </div>
-            <div id="error">
-              <span>
-                Ne pare rau, dar ceva a mers prost, reîncărcați paginia și completarea formularului din nou.
-              </span>
+            <div role="tabpanel" class="tab-pane" id="wwd2012">
+              <h3>Ce am realizat în 2011</h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+              <p>Aenean cursus maximus lacus, non feugiat ex rhoncus vel. Phasellus tempor nibh pretium metus convallis, nec ultricies purus imperdiet. Nunc non purus vulputate, interdum tortor in, vehicula magna.</p>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur iaculis at arcu et ultrices. Nulla sed molestie libero, convallis ultrices turpis.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="wwd2013">
+              <h3>Ce am realizat în 2011</h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+              <p>Aenean cursus maximus lacus, non feugiat ex rhoncus vel. Phasellus tempor nibh pretium metus convallis, nec ultricies purus imperdiet. Nunc non purus vulputate, interdum tortor in, vehicula magna.</p>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur iaculis at arcu et ultrices. Nulla sed molestie libero, convallis ultrices turpis.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="wwd2014">
+              <h3>Ce am realizat în 2011</h3>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+              <p>Aenean cursus maximus lacus, non feugiat ex rhoncus vel. Phasellus tempor nibh pretium metus convallis, nec ultricies purus imperdiet. Nunc non purus vulputate, interdum tortor in, vehicula magna.</p>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur iaculis at arcu et ultrices. Nulla sed molestie libero, convallis ultrices turpis.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="row m0">
-            <h4 class="contactHeading heading">informatii contact</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="hww" class="row contentRowPad">
+    <div class="container">
+      <h3>cum lucram</h3>
+      <div class="col-sm-4">
+        <h5>
+          <span>01.</span> Planificare</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+      </div>
+      <div class="col-sm-4">
+        <h5>
+          <span>02.</span> Proiectare</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+      </div>
+      <div class="col-sm-4">
+        <h5>
+          <span>03.</span> Livrare</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur elit mi, ac fermentum ipsum pharetra sed. Phasellus a facilisis nisi, et varius sem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ourTeam" class="row contentRowPad">
+    <div class="container">
+      <div class="row sectionTitle">
+        <h3>echipa noastra</h3>
+        <h5>avem echipa noastra de creatie</h5>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/team/1.png" alt="...">
+            <div class="caption">
+              <h4>Radu Vlad</h4>
+              <h5>Fondator</h5>
+              <ul class="list-inline row m0">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
           </div>
-          <div class="media contactInfo">
-            <div class="media-left">
-              <i class="fa fa-map-marker"></i>
-            </div>
-            <div class="media-body">
-              <h5 class="heading">unde de găsiți</h5>
-              <p>Puteți ajunge la noi, la adresa:</p>
-              <h5>Strada Franceză nr.54, Romania</h5>
-            </div>
-          </div>
-          <!--contactInfo-->
-          <div class="media contactInfo">
-            <div class="media-left">
-              <i class="fa fa-envelope"></i>
-            </div>
-            <div class="media-body">
-              <h5 class="heading">Email</h5>
-              <p>Trimiteți problemele dumneavoastră și sugestiile la următoarea adresa de e-mail:</p>
-              <h5>contact@undedorm.ro</h5>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/team/2.png" alt="...">
+            <div class="caption">
+              <h4>Razvan Dumitru</h4>
+              <h5>Co-fondator</h5>
+              <ul class="list-inline row m0">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
             </div>
           </div>
-          <!--contactInfo-->
-          <div class="media contactInfo">
-            <div class="media-left">
-              <i class="fa fa-phone"></i>
-            </div>
-            <div class="media-body">
-              <h5 class="heading">need to call us?</h5>
-              <p>De luni până vineri , 10 : 00 - 20:00 , sunati-ne la:</p>
-              <h5>0752764212</h5>
-              <h5>0721876321</h5>
-            </div>
-          </div>
-          <!--contactInfo-->
-          <div class="media contactInfo">
-            <div class="media-left">
-              <i class="fa fa-question"></i>
-            </div>
-            <div class="media-body">
-              <h5 class="heading">Oferim suport de calitate</h5>
-              <p>Noi oferim cea mai bună calitate a serviciilor de inchiriat locuințe. Noi suntem mereu aici pentru a vă ajuta cu orice problema.</p>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/team/3.png" alt="...">
+            <div class="caption">
+              <h4>Ana Costea</h4>
+              <h5>Co-fondator</h5>
+              <ul class="list-inline row m0">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
             </div>
           </div>
-          <!--contactInfo-->
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/team/4.png" alt="...">
+            <div class="caption">
+              <h4>marius stratulat</h4>
+              <h5>Co-fondator</h5>
+              <ul class="list-inline row m0">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
